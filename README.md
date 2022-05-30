@@ -20,7 +20,7 @@ Then Download all the csv files by name for the given date.
   - Insert this data too into mysql database table
 
 Read all data from mysql table and put into new csv file's
-  - if data is more than 100000, distribute this data into multiple file
+  - if data is more than 100000, distribute this data into multiple files
   - create short downloadable link 
  
  Fetch brand wise email ids from sql server db table
