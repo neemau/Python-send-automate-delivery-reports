@@ -270,7 +270,7 @@ class Detailmis:
 					dlink = "http://HOST/py/dir/exports/"+encfile
 
 				
-				response = requests.get("http://mqml.co/shorten/index.php?keyword="+self.sid+str(randint(1000, 9999))+"&url="+dlink+"&title=Delivery report&ip=180.179.198.149")
+				response = requests.get("http://URL_SHORT_HOST/shorten/index.php?keyword="+self.sid+str(randint(1000, 9999))+"&url="+dlink+"&title=Delivery report&ip=180.179.198.149")
 				response.encoding = 'utf-8'
 				shortLink = response.text
 				print(shortLink)
